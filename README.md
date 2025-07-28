@@ -1,45 +1,53 @@
-A complete pipeline project in Python that scrapes restaurant reviews from OpenTable, extracts structured insights using LLM-based prompt engineering, visualizes results via a GUI, and performs competitor analysis using time-series data.
+🍽️ Restaurant Review Analysis & Competitor Insights – Python Project
+A complete end-to-end pipeline that scrapes restaurant reviews from OpenTable, extracts structured insights using LLMs, and presents an interactive dashboard for competitor analysis with time-series visualizations.
 
 🚀 Features
+🔍 Automated Web Scraping
+Scrapes reviews, ratings, and dates from OpenTable using Selenium and BeautifulSoup, with full pagination support.
 
-Web scraping using Selenium & BeautifulSoup with full pagination support
+🧾 Structured Review Extraction
+Extracts key data: restaurant names, user reviews, star ratings, and timestamps.
 
-Structured extraction of restaurant name, reviews, ratings, and dates
+🧠 LLM-Powered Prompt Analysis
+Uses prompt engineering to extract meaningful food and staff-related feedback from raw text reviews.
 
-Prompt-based analysis of reviews to extract food and staff-related comments
+🔐 Privacy-Preserving Text Handling
+Automatically removes personally identifiable information (PII) from user content.
 
-Removal of personal identifiable information (PII)
+📊 Interactive Visualization Dashboard
+Built with Streamlit or Flask, featuring:
 
-Interactive dashboard (built in Streamlit/Flask) for review visualization
+Color-coded comments for food vs. staff insights
 
-Color-coded display of food vs staff feedback
+Search functionality
 
-Competitor analysis with rating trends and time-series graphs
+Clean and responsive layout
 
-🛠 Technologies Used
+📈 Competitor Analysis & Trends
+Visualizes time-based rating trends and comparisons using Matplotlib and Plotly for multi-restaurant insights.
 
+🛠️ Technologies Used
 Python
 
-BeautifulSoup & Selenium (for web scraping)
+BeautifulSoup, Selenium – for scraping
 
-OpenAI API / LLMs (for prompt engineering)
+OpenAI API / LLMs – for prompt analysis
 
-Pandas, JSON, CSV (for data processing)
+Pandas, JSON, CSV – for data processing
 
-Streamlit / Flask (for GUI dashboard)
+Streamlit / Flask – for dashboard UI
 
-Matplotlib / Plotly (for visualization)
+Matplotlib, Plotly – for charts & graphs
 
 🧠 Concepts Practiced
+✅ Web automation and dynamic scraping
 
-This project was part of an AI / Data Analysis course and applies several real-world concepts:
+✅ Prompt engineering for NLP tasks
 
-Web automation and data collection using scraping tools
+✅ Ethical AI use with PII filtering
 
-Prompt engineering and secure LLM usage (avoiding hallucinations + PII)
+✅ Time-series analysis for competitor insights
 
-JSON/CSV data handling for structured outputs
+✅ Full-stack integration of scraping, analysis, and GUI presentation
 
-Full-stack GUI integration for search and review highlight
-
-Time-series comparison for business insights
+📌 Developed as part of an AI & Data Analysis course project to showcase real-world applications of LLMs, data visualization, and full-stack automation.
